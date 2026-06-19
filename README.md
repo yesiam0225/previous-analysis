@@ -17,20 +17,18 @@ These notebooks reflect the reasoning I worked through during dissertation resea
 ```
 previous-analysis/
 ├── README.md
-│
-├── Pipeline 1 — Spatiotemporal gait parameters
-│   ├── treadmill_spatiotemporal_analysis.ipynb
-│   └── overground_spatiotemporal_from_events.ipynb
-│
-├── Pipeline 2 — Joint kinematics
-│   ├── vicon_joint_kinematics_peak_rom.ipynb           (Stage 1)
-│   ├── joint_kinematics_ensemble_avg.ipynb             (Stage 2)
-│   ├── joint_kinematics_group_statistics.ipynb         (Stage 3)
-│   └── spm_joint_kinematics.ipynb                      (Stage 4)
-│
-└── Standalone balance analyses
-    ├── cop_analysis.ipynb
-    └── margin_of_stability_analysis.ipynb
+└── notebooks/
+    ├── 01_spatiotemporal/
+    │   ├── treadmill_spatiotemporal_analysis.ipynb
+    │   └── overground_spatiotemporal_from_events.ipynb
+    ├── 02_joint_kinematics/
+    │   ├── vicon_joint_kinematics_peak_rom.ipynb
+    │   ├── joint_kinematics_ensemble_avg.ipynb
+    │   ├── joint_kinematics_group_statistics.ipynb
+    │   └── spm_joint_kinematics.ipynb
+    └── 03_balance/
+        ├── cop_analysis.ipynb
+        └── margin_of_stability_analysis.ipynb
 ```
 
 ## Pipeline 1 — Spatiotemporal Gait Parameters
