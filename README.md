@@ -100,4 +100,4 @@ The notebooks expect inputs in the CSV formats produced by my dissertation data 
 
 ## License
 
-This repository is published as a record of past analytical work. The code is shared as-is for transparency and is not intended as a redistributable tool.
+MIT — see [LICENSE](LICENSE).
